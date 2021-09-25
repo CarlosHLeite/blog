@@ -1,0 +1,208 @@
+/******************
+    Global
+******************/
+
+:root
+{
+    --primary-color: #35444f;
+    --white: #fff;
+    --orange: #f76c5d;
+    --blue: #1f4393;
+    --background: #005;
+	--primary: #88D5BF;
+	--secondary: #5D6BF8;
+	--third: #e27fcb;
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;   
+}
+
+body
+{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    color:var(--primary-color);
+    overflow-x: hidden;  
+    background-image: linear-gradient(to right top, #18384e, #173950, #163953, #163a55, #153a57, #183b57, #1a3c57, #1d3d57, #233f55, #294153, #2f4251, #35444f);
+
+    
+}
+
+.services
+{
+    background-image: linear-gradient(to right top, #e9e4df, #e7e1da, #e5ddd6, #e3dad1, #e1d7cd, #e1d6cc, #e2d6ca, #e2d5c9, #e5d7cb, #e7dacd, #eadccf, #ecdfd1);
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+}
+
+a 
+{
+    text-decoration: none;
+    color: var(--white);
+}
+
+li a 
+{
+    margin-right: 2rem;
+}
+
+.img
+{
+    max-width: 100%;
+    height: 30rem;
+    width: 60rem;
+    clip-path: polygon( 0 0, 100% 0, 100% 0, 0 0);
+}
+
+.transition
+{   
+    position: absolute;
+    z-index: 100;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    transform: scaleY(0);
+    background-image: linear-gradient(to right top, #e9e4df, #e7e1da, #e5ddd6, #e3dad1, #e1d7cd, #e1d6cc, #e2d6ca, #e2d5c9, #e5d7cb, #e7dacd, #eadccf, #ecdfd1);   
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    height: 92vh;
+    width: 100%;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    height: 8vh;   
+}
+
+.header a
+{
+    color: var(--white);
+    font-size: 1.6rem;
+    transition: all .1s ease-in-out;
+    
+}
+
+.header a:hover
+{
+    color: var(--orange);
+}
+
+.active a
+{
+   color: var(--orange); 
+}
+
+.logo h2 
+{
+    font-size: 2.5rem;
+    color: var(--orange);
+    font-weight: 700;
+}
+
+/******************
+   End of Global
+******************/
+
+.main-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px; 
+}
+
+.main-section h1
+{
+    color: white;
+    font-size: 8rem;
+  
+}
+
+.main-section h2
+{
+    color: var(--orange);
+    font-size: 1.6rem;
+    font-weight: 500;
+  
+}
+.hero-content
+{
+    position: relative;
+    width: 500px;
+    text-align: center;
+   
+   
+ 
+}
+
+.blop
+{
+    position: absolute;
+    
+    z-index: -1;
+    width: 400px;
+    height: 300px;
+}
+
+.hero q
+{
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    
+}
+
+.hero
+{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2
+{
+    justify-self: flex-start;
+    position: absolute;
+    top: 30px;
+    color: var(--orange);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.social-icon
+{
+    height: 30px;
+    width: 30px;
+}

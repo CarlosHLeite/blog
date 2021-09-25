@@ -1,0 +1,27 @@
+/******************
+    Spinner
+******************/
+
+.spinner-container {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #e9e4df, #e7e1da, #e5ddd6, #e3dad1, #e1d7cd, #e1d6cc, #e2d6ca, #e2d5c9, #e5d7cb, #e7dacd, #eadccf, #ecdfd1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  z-index: 300;
+  font-size: 3rem;
+  
+}
+
+
+
+.display .spinner-container {
+  opacity: 0;
+  visibility: hidden;
+}
